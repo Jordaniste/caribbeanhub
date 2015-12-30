@@ -4,3 +4,5 @@ Caribbean Hub is a Slack community created by Raphaël Beaupied <https://twitter
 The first one actually!
 
 Our goal is to connect entrepreneurs and professionals from the tech industry in this area in order to chat, share and learn from each other.
+
+Caribban Hub <http://www.caribbeanhub.xyz/>
