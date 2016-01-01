@@ -1,0 +1,262 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+/*STYLE FONTS*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/*
+/*NAVBAR
+.navbar-custom {
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Lato', sans-serif;
+    background-color: #093b5b;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+
+/*NAVBAR MOBILE
+.icon-bar{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #FFF;
+}
+*/
+
+
+/*LOGO*/
+#logo{
+    max-width: 150px;
+}
+
+/*BLOC 1*/
+.intro-header {
+     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    padding-top: 8.7em;
+    text-align: center;
+    color: #f8f8f8;
+    background-image: url(../img/intro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #093b5b;
+}
+
+.margin-top{
+	margin-top: 20px;
+}
+
+
+.sign-in{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+.sign-in a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* BLOC 2 */
+.question-hub{
+    color: #093b5b;
+	margin-bottom: 35px;
+}
+
+.intro-message {
+    position: relative;
+/*    padding-top: 5%;*/
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 45px;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.lead{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.about-slack{
+    color: #093b5b;
+    font-size: 15px;
+	text-decoration: none;
+}
+
+.about-slack:hover{
+	text-decoration: none
+}
+
+#creatorj{
+    width: 220px;
+    position: relative;
+    margin-top: -2em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    text-align: center;
+}
+#creatorr{
+    width: 220px;
+    position: relative;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    text-align: center;
+}
+
+#legende{
+    margin-top: -40px;
+    margin-bottom: 2em;
+    color: #9998A5;
+}
+
+
+/*BLOC 3*/
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 65px 0;
+    color: #FFF;
+    background-color: #093B5B;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 32px;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+}
+
+#swap {
+  vertical-align:top;
+}
+
+#swap>span {
+  position:absolute;
+  color:white;
+}
+
+
+/*FOOTER*/
+footer {
+    padding: 9px 0;
+    background-color: #f8f8f8;
+}
+
+.free{
+	font-size: 12px;
+}
+
+.heart-footer{
+	width: 14px;
+}
